@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url('./images/backgroundRest.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 150px;
+    color: white;
+}
+
+.menu {
+    font-size: 50px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 30px;
+    border: black 5px solid;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3rem;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.foodmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.foodmenu img {
+    height: 300px;
+    width: 300px;
+}
+
+.foodmenu div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    color: rgb(67, 67, 67);
+}
